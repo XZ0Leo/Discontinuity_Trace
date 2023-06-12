@@ -1,0 +1,8 @@
+opencv：
+
+retval, img = cv2.threshold(gray, realValue, 255, realType)
+阈值， 二值化图像 = cv2.threshold(输入灰度图， 阈值，最大值， 阈值类型)
+
+cv2.cvtColor(frame,cv2.COLOR_BGR2RGB)
+@frame：为要进行处理的图片；
+@cv2.COLOR_BGR2RGB：要进行的色彩转换方式；
